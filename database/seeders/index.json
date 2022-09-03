@@ -1,0 +1,71 @@
+{
+  "data": {
+    "books": [
+      {
+        "id": 1,
+        "title": "Program your brain right",
+        "slug": "program_your_brain_right",
+        "thumb": "/data/books/1/program_your_brain_right.png",
+        "content": "/data/books/1/program_your_brain_right.mdx",
+        "price": 9.25,
+        "status": "free",
+        "draft": false,
+        "createdAt": "2016-03-08",
+        "updatedAt": "2016-03-08",
+        "tags": ["book", "brain", "train"],
+        "images": [
+          {
+            "filename": "program_your_brain_right.png",
+            "width": 750,
+            "height": 750,
+            "src": "/data/books/1/program_your_brain_right.png"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "أنوي الوفرة",
+        "slug": "i_intend_abundance",
+        "thumb": "data/books/2/i_intend_abundance.png",
+        "content": "data/books/2/i_intend_abundance.mdx",
+        "price": 10.98,
+        "status": "free",
+        "draft": false,
+        "createdAt": "2016-03-08",
+        "updatedAt": "2016-03-08",
+        "tags": ["awareness", "free choice", "the will to change", "الوعي", "الاختيار الحر", "ألإرادة في التغيير"],
+        "images": [
+          {
+            "filename": "i_intend_abundance.png",
+            "width": 750,
+            "height": 750,
+            "src": "/data/books/2/i_intend_abundance.png"
+          }
+        ]
+      }
+    ],
+    "courses": [
+      {
+        "id": 1,
+        "title": "طاقة البدايات",
+        "slug": "طاقة_البدايات",
+        "price": "free",
+        "date": "2022-08-31",
+        "attachments": [
+          {
+            "name": "التفريغ النصي للدورة",
+            "filename": "transcription-ta9at-bidayat",
+            "type": "pdf",
+            "url": "public/data/courses/1/transcription-ta9at-bidayat.pdf"
+          },
+          {
+            "name": "ملف التمارين",
+            "filename": "ex-files",
+            "type": "pdf",
+            "url": "/data/courses/1/ex-files.pdf"
+          }
+        ]
+      }
+    ]
+  }
+}

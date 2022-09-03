@@ -1,0 +1,34 @@
+
+
+GET http://localhost:8000/api/books
+Content-Type: application/json; charset=utf-8
+
+###
+
+POST http://localhost:8000/api/books
+Content-Type: application/json; charset=utf-8
+
+{
+    "title": "Program your brain right",
+    "slug": "program_your_brain_right1",
+    "price": 9.25,
+    "status": "draft"
+}
+
+###
+
+PATCH http://localhost:8000/api/books/2
+Content-Type: application/json; charset=utf-8
+
+{
+    "title": "أنوي الوفرة",
+    "slug": "i_intend_abundance",
+    "price": 10.98,
+    "status": "published"
+}
+
+###
+
+DELETE http://localhost:8000/api/books/3
+
+###
